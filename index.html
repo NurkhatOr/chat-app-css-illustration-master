@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <title>Frontend Mentor | chat-app-css-illustration-master</title>
+  </head>
+  <body>
+    <main>
+      <div class="desktop">
+        <div class="container">
+          <div class="device">
+            <div class="device--body">
+              <div class="device--display">
+                <div class="device--eyebrow"></div>
+                <div class="device--display__header flex">
+                  <div class="back-button flex flex-column jc-c">
+                    <div></div>
+                    <div></div>
+                  </div>
+                  <div class="contact flex jc-c ai-c">
+                    <div class="contact--image flex jc-c ai-c">
+                      <img
+                        src="images/avatar.jpg"
+                        alt="Headshot of Samuel Green"
+                      />
+                    </div>
+                    <div class="contact--info">
+                      <div class="contact--info--fullName">Samuel Green</div>
+                      <div class="contact--info--status">Available to Walk</div>
+                    </div>
+                  </div>
+                  <div class="menu flex flex-column jc-c">
+                    <div class="menu--dots"></div>
+                    <div class="menu--dots"></div>
+                    <div class="menu--dots"></div>
+                  </div>
+                </div>
+                <div class="device--display__chat-area flex flex-column">
+                  <div class="income">
+                    <div class="income--message">
+                      That sounds great. I'd be happy to discuss more.
+                    </div>
+                    <div class="income--message">
+                      Could you send over some pictures of your dog, please?
+                    </div>
+                  </div>
+                  <div class="sent">
+                    <div class="sent--message flex jc-fe">
+                      <img
+                        src="images/dog-image-1.jpg"
+                        alt="the picture of the dog"
+                      />
+                      <img
+                        src="images/dog-image-2.jpg"
+                        alt="the picture of the dog"
+                      />
+                      <img
+                        src="images/dog-image-3.jpg"
+                        alt="the picture of the dog"
+                      />
+                    </div>
+                    <div class="sent--message">
+                      Here are a few pictures. She’s a happy girl!
+                    </div>
+                    <div class="sent--message">Can you make it?</div>
+                  </div>
+                  <div class="income">
+                    <div class="income--message">
+                      She looks so happy! The time we discussed works. How long
+                      shall I take her out for?
+                    </div>
+                    <button class="button choice--button flex jc-fs ai-c">
+                      <div class="circle--choice"></div>
+                      <div class="walk-duration">30 minute walk</div>
+                      <div class="price-for-walk">$29</div>
+                    </button>
+                    <button class="button choice--button flex jc-fs ai-c">
+                      <div class="circle--choice"></div>
+                      <div class="walk-duration">1 hour walk</div>
+                      <div class="price-for-walk">$49</div>
+                    </button>
+                  </div>
+                </div>
+                <div class="type-area">
+                  <form action="send">
+                    <input
+                      class="message-type"
+                      type="text"
+                      placeholder="Type a message..."
+                    />
+                    <div class="send-button flex flex-column jc-c ai-c">
+                      <div></div>
+                      <div></div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container text mt">
+          <h1 class="title">Simple booking</h1>
+          <p class="paragraph">
+            Stay in touch with our dog walkers through the chat interface. This
+            makes it easy to discuss arrangements and make bookings. Once the
+            walk has been completed you can rate your walker and book again all
+            through the chat.
+          </p>
+        </div>
+        <div class="background-elem background-element-top"></div>
+        <div class="background-elem background-element-bottom"></div>
+      </div>
+    </main>
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">NurkhatOr</a>.
+      </div>
+    </footer>
+  </body>
+</html>
